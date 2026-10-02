@@ -1,0 +1,45 @@
+{
+  "book.mp4": {
+    "expected": "book",
+    "processed_frames": 168,
+    "detection_rate": 1.0,
+    "correct_rate": 1.0,
+    "mean_confidence": 0.6754,
+    "label_switches": 0,
+    "stability": 1.0,
+    "all_labels": {
+      "book": 217
+    },
+    "fps": 59.94,
+    "total_frames": 840
+  },
+  "cup.mp4": {
+    "expected": "cup",
+    "processed_frames": 125,
+    "detection_rate": 1.0,
+    "correct_rate": 1.0,
+    "mean_confidence": 0.9729,
+    "label_switches": 0,
+    "stability": 1.0,
+    "all_labels": {
+      "cup": 249
+    },
+    "fps": 30.0,
+    "total_frames": 623
+  },
+  "laptop.mp4": {
+    "expected": "laptop",
+    "processed_frames": 95,
+    "detection_rate": 0.758,
+    "correct_rate": 0.737,
+    "mean_confidence": 0.9398,
+    "label_switches": 2,
+    "stability": 0.979,
+    "all_labels": {
+      "laptop": 70,
+      "tv": 3
+    },
+    "fps": 25.0,
+    "total_frames": 475
+  }
+}
